@@ -1,0 +1,11 @@
+.demonym_app {
+    border: lightgrey;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    margin: 15px;
+    height: fit-content;
+}

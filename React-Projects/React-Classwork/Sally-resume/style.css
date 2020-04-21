@@ -1,0 +1,26 @@
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: 900;
+    font-family: roboto;
+    font-size: 2em;
+    color: red;
+}
+
+h2 {
+    font-weight: 500;
+    font-family: lato;
+    font-size: 1em;
+    color: green;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 0.75em;
+}
+
+a:link {
+    color: purple;
+}

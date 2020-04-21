@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sally Student resume</title>
+        <meta name="description" content="This is Sally Student's resume." />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div id="application-root"></div>
+        <script
+            crossorigin
+            src="https://unpkg.com/react@16/umd/react.development.js"
+        ></script>
+        <script
+            crossorigin
+            src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+        ></script>
+        <script type="text/babel">
+            function App() {
+                return (
+                    <div>
+                        <header>
+                            <h1>Sally Student resume</h1>
+                        </header>
+                        <main>
+                            <section>
+                                <img
+                                    src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg"
+                                    height="250px"
+                                    alt="A picture of Sally Student in a bright yellow top."
+                                />
+                                <h2>Contact Information</h2>
+                                Name
+                                <address>
+                                    <a href="mailto:sally@gmail.com">
+                                        sally@gmail.com
+                                    </a>
+                                    <br />
+                                    <a href="tel:+18885555555">
+                                        1(888) 555-5555
+                                    </a>
+                                </address>
+                            </section>
+                            <section>
+                                <h2>Education</h2>
+                                <ul>
+                                    <li>Harvard University</li>
+                                    <li>Stanford</li>
+                                    <li>USC</li>
+                                </ul>
+                            </section>
+                            <section>
+                                <h2>Employment</h2>
+                                <h3>Joe's Crab Shack</h3>
+                                Crab Cook
+                                <br />
+                                10/15/2017 - 12/15/2018
+                                <br />
+                                <br />
+                                This is a short description of the job. But in
+                                reality she didn't do anything because she
+                                doesn't exist.
+                                <h3>Facebook</h3>
+                                CEO
+                                <br />
+                                12/15/2018 - current
+                                <br />
+                                <br />
+                                She bought the company from Mark last year and
+                                turned into Skynet.
+                            </section>
+                        </main>
+                    </div>
+                );
+            }
+            ReactDOM.render(
+                <App />,
+                document.querySelector("#application-root")
+            );
+        </script>
+    </body>
+</html>

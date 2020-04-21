@@ -1,0 +1,20 @@
+{
+    "name": "playstore",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "debug": "^4.1.1",
+        "express": "^4.17.1",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "mocha",
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC"
+}
